@@ -1,10 +1,6 @@
 # AI / ML Engineer Portfolio Website
 
-A modern, production-ready personal portfolio website built to showcase AI/ML engineering skills, real-world projects, and MLOps expertise.
-
-This portfolio is designed for recruiters, hiring managers, and technical interviewers evaluating candidates for AI Engineer / ML Engineer roles.
-
-The UI design is inspired by a Figma community template and fully customized with original content, projects, and engineering-focused structure.
+A production-ready personal portfolio website showcasing AI/ML engineering skills, real-world projects, and MLOps expertise, with a clean interface inspired by a Figma community template and fully customized using original, engineering-focused content.
 
 ---
 
@@ -60,12 +56,13 @@ The resume PDF is placed in:
 ```bash
 /public/resume/Aareen_Tech_Draft.pdf
 ```
+
 It can be accessed directly via:
 
 ```bash
 /resume/Aareen_Tech_Draft.pdf
 ```
 
-##🔒 GitHub Repositories
+## 🔒 GitHub Repositories
 
 Some project repositories linked from the website may be private. Access can be provided upon request.
