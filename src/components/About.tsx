@@ -54,19 +54,18 @@ export function About() {
           <div className="mb-16">
             <Card className="p-8 sm:p-10 bg-card/50 backdrop-blur-sm border-2 shadow-xl hover:shadow-2xl transition-all duration-300">
               <p className="text-lg leading-relaxed mb-6 text-muted-foreground">
-                I'm an AI/ML Engineer passionate about building intelligent systems that solve real-world problems. 
-                My expertise spans the full machine learning lifecycle—from research and experimentation to 
-                production deployment and monitoring.
+                I'm an AI/ML Engineer focused on building reliable, production-grade machine learning and 
+                Generative AI systems that operate effectively in real-world environments. My work spans the 
+                complete ML lifecycle, from problem formulation and experimentation to deployment, monitoring, 
+                and iteration in production.
               </p>
               <p className="text-lg leading-relaxed mb-6 text-muted-foreground">
-                With a strong foundation in <span className="text-foreground font-medium">Deep Learning</span>, <span className="text-foreground font-medium">Computer Vision</span>, 
-                and <span className="text-foreground font-medium">MLOps</span>, I focus on creating reproducible, scalable, and maintainable AI systems. 
-                I believe in engineering rigor, continuous learning, and the importance of translating research into 
-                production-ready solutions.
-              </p>
-              <p className="text-lg leading-relaxed text-muted-foreground">
-                My goal is to work on challenging problems at the intersection of research and engineering, 
-                contributing to products that leverage AI to make a meaningful impact at scale.
+                I emphasize <span className="text-foreground font-medium">engineering rigor, reproducibility, 
+                and system scalability</span>, ensuring that models are not only accurate but also maintainable, 
+                observable, and robust under real usage conditions. I approach ML systems as long-lived products 
+                rather than one-off experiments. I am driven to work on technically challenging problems where 
+                strong software engineering,applied machine learning, and thoughtful system design come 
+                together to create measurable, high-impact AI solutions.
               </p>
             </Card>
           </div>
@@ -106,13 +105,13 @@ export function About() {
             <div className="flex flex-wrap justify-center gap-3">
               {[
                 "Deep Learning",
-                "Computer Vision",
+                "Generative AI & LLM Systems",
                 "Natural Language Processing",
                 "MLOps & ML Engineering",
                 "Model Optimization",
-                "Transformers & CNNs",
-                "Reproducible Research",
+                "Scalable ML Infrastructure",
                 "Production ML Systems",
+                "Applied AI Engineering"
               ].map((interest, index) => (
                 <motion.span
                   key={interest}

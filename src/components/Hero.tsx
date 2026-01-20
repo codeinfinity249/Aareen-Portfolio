@@ -2,8 +2,7 @@ import { motion } from "motion/react";
 import { ArrowDown, Github, Linkedin, Mail, FileDown, Sparkles } from "lucide-react";
 import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-
-const profileImage = "https://images.unsplash.com/photo-1562228802-4b1052d0f845?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMHBvcnRyYWl0fGVufDF8fHx8MTc2NzM5MjA5M3ww&ixlib=rb-4.1.0&q=80&w=1080";
+import profileImage from "../assets/images/profile.jpeg";
 
 export function Hero() {
   const scrollToSection = (sectionId: string) => {
@@ -74,7 +73,7 @@ export function Hero() {
                     MLOps
                   </span>
                   <span className="px-3 py-1 rounded-md bg-gradient-to-r from-primary/10 to-green-500/10 border border-primary/20 text-sm">
-                    Computer Vision
+                    Generative AI
                   </span>
                 </div>
               </motion.div>
@@ -86,10 +85,11 @@ export function Hero() {
                 transition={{ delay: 0.6, duration: 0.8 }}
                 className="text-lg text-muted-foreground mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed"
               >
-                Building production-ready AI systems with a focus on reproducibility, 
-                scalability, and real-world impact. Passionate about translating cutting-edge 
-                research into deployable solutions.
-              </motion.p>
+                AI/ML Engineer specializing in building and deploying production-ready ML 
+                and Generative AI systems with a strong focus on MLOps, reproducibility, and scalable cloud deployment. 
+                Experienced in translating complex problem statements into reliable, real-world AI solutions.
+              </motion.p> 
+              
 
               {/* CTA Buttons */}
               <motion.div
@@ -175,6 +175,7 @@ export function Hero() {
                   </div>
                   
                   {/* Floating Badge */}
+                  {/*
                   <motion.div
                     initial={{ opacity: 0, scale: 0.8 }}
                     animate={{ opacity: 1, scale: 1 }}
@@ -184,6 +185,7 @@ export function Hero() {
                     <p className="text-sm text-muted-foreground">Based in</p>
                     <p className="text-foreground">Mumbai, India</p>
                   </motion.div>
+                  */}
                 </div>
               </div>
             </motion.div>

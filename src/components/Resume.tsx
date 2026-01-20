@@ -7,15 +7,15 @@ export function Resume() {
   const resumeSections = [
     {
       title: "Education",
-      content: "B.S. in Computer Science / Data Science with focus on Machine Learning and AI",
+      content: "B.Tech & M.Tech in Environmental Science and Engineering, IIT Bombay (2020 - 2025)",
     },
     {
       title: "Core Competencies",
-      content: "Deep Learning • Computer Vision • MLOps • Production ML Systems • Research",
+      content: "Machine Learning • Deep Learning • MLOps • Generative AI • Production ML Systems",
     },
     {
       title: "Technical Expertise",
-      content: "PyTorch, TensorFlow, MLflow, DVC, Docker, CI/CD, Python, SQL, Cloud Platforms",
+      content: "PyTorch, TensorFlow, MLflow, DVC, Docker, GitHub Actions, AWS, Python, SQL",
     },
   ];
 
@@ -62,9 +62,9 @@ export function Resume() {
                     <h3 className="text-3xl mb-3">Aareen Aher</h3>
                     <p className="text-xl text-primary mb-3">AI / ML Engineer</p>
                     <p className="text-muted-foreground leading-relaxed">
-                      Results-driven ML Engineer with expertise in building production-ready AI systems. 
-                      Proven track record in deep learning, computer vision, and MLOps. Strong foundation 
-                      in research and engineering best practices with focus on scalability and reproducibility.
+                      Engineer focused on designing and delivering end-to-end machine learning solutions, 
+                      from problem formulation and experimentation to reliable real-world deployment. 
+                      Experienced in translating complex research ideas into practical systems with measurable impact.
                     </p>
                   </div>
                 </div>
@@ -85,13 +85,24 @@ export function Resume() {
 
                 {/* Download Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4">
+                  {/*
                   <Button size="lg" className="gap-2 flex-1 sm:flex-initial shadow-lg hover:shadow-xl">
                     <Download className="w-5 h-5" />
                     Download Resume (PDF)
+                  </Button>*/}
+                  <Button size="lg" className="gap-2 flex-1 sm:flex-initial shadow-lg hover:shadow-xl" asChild >
+                    <a
+                      href="/resume/Aareen_Tech_Draft.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FileText className="w-5 h-5" />
+                      View Resume (PDF)
+                    </a>
                   </Button>
                   <Button size="lg" variant="outline" className="gap-2 flex-1 sm:flex-initial border-2 shadow-md hover:shadow-lg" asChild>
                     <a
-                      href="https://linkedin.com/in/yourprofile"
+                      href="https://www.linkedin.com/in/aareen-aher-273841204"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -121,19 +132,19 @@ export function Resume() {
                     <ul className="space-y-3">
                       <li className="text-sm flex items-start">
                         <span className="text-primary mr-2 mt-0.5">•</span>
-                        <span>Expert-level Python programming and ML frameworks</span>
+                        <span>Strong Python-based problem solving & ML workflows</span>
                       </li>
                       <li className="text-sm flex items-start">
                         <span className="text-primary mr-2 mt-0.5">•</span>
-                        <span>Deep understanding of neural network architectures</span>
+                        <span>Deep understanding of neural network & GenAI architectures</span>
                       </li>
                       <li className="text-sm flex items-start">
                         <span className="text-primary mr-2 mt-0.5">•</span>
-                        <span>Production deployment and MLOps expertise</span>
+                        <span>Experience deploying, monitoring & maintaining ML systems</span>
                       </li>
                       <li className="text-sm flex items-start">
                         <span className="text-primary mr-2 mt-0.5">•</span>
-                        <span>Experience with cloud platforms and containerization</span>
+                        <span>Practical knowledge of cloud platforms & containerized systems</span>
                       </li>
                     </ul>
                   </div>
@@ -149,7 +160,7 @@ export function Resume() {
                       </li>
                       <li className="text-sm flex items-start">
                         <span className="text-primary mr-2 mt-0.5">•</span>
-                        <span>Research-to-production translation</span>
+                        <span>Research-to-production translation experience</span>
                       </li>
                       <li className="text-sm flex items-start">
                         <span className="text-primary mr-2 mt-0.5">•</span>
@@ -157,7 +168,7 @@ export function Resume() {
                       </li>
                       <li className="text-sm flex items-start">
                         <span className="text-primary mr-2 mt-0.5">•</span>
-                        <span>Mentoring and technical documentation</span>
+                        <span>Mentoring and clear technical documentation</span>
                       </li>
                     </ul>
                   </div>

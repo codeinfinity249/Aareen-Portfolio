@@ -53,9 +53,16 @@ export function Skills() {
       skills: [
         "AWS EC2",
         "AWS ECR",
+        "AWS S3",
+        "AWS IAM",
+        "AWS VPC",
+        "AWS CloudFormation",
+        "AWS ECS",
+        "AWS Lambda",
         "REST APIs",
       ],
     },
+    
     {
       category: "Domain Tools",
       icon: Wrench,
@@ -96,7 +103,7 @@ export function Skills() {
             <h2 className="text-4xl sm:text-5xl mb-4">Technical Skills</h2>
             <div className="w-20 h-1 bg-gradient-to-r from-primary to-purple-500 mx-auto rounded-full"></div>
             <p className="text-muted-foreground mt-6 max-w-2xl mx-auto text-lg">
-              Comprehensive expertise across the ML engineering stack, from research to production deployment
+              Comprehensive expertise across the ML engineering stack, from model development to production deployment
             </p>
           </div>
 
