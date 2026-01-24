@@ -109,6 +109,39 @@ export function Projects() {
       },
       github: "https://github.com/codeinfinity249",
     },
+    {
+      title: "XAI-Constrained Model Optimization Pipeline",
+      featured: false,
+      status: "production",
+      description:
+        "Explainability-constrained machine learning optimization pipeline for credit risk modeling, enforcing stability-aware model selection through integrated XAI diagnostics.",
+      problem:
+        "Conventional hyperparameter optimization focuses solely on predictive performance, often ignoring interpretability, stability, and auditability its a key requirements for deploying machine learning models in regulated financial risk environments.",
+      techStack: [
+        "Python",
+        "Pandas",
+        "Scikit-learn",
+        "XGBoost",
+        "SHAP",
+        "PDP",
+        "ALE",
+        "MLflow",
+        "DAGsHub",
+      ],
+      highlights: [
+        "Built explainability-constrained ML optimization pipeline for credit risk modeling across 30+ engineered features",
+        "Optimized Logistic Regression, RF & XGBoost via XAI-aware tuning achieving 93.5% accuracy, 0.95 ROC-AUC",
+        "Enforced model stability using SHAP, PDP & ALE with SHAP variance reduced to 0.002 & ALE spikes <0.41",
+        "Productionized experimentation with MLflow + DAGsHub, logging hyperparameters, metrics & XAI artifacts",
+      ],
+      metrics: {
+        accuracy: "93.5%",
+        rocAuc: "0.95",
+        f1Score: "0.83",
+        features: "30+",
+      },
+      github: "https://github.com/codeinfinity249",
+    },
   ];
 
   return (

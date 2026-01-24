@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { Card } from "./ui/card";
 import { Badge } from "./ui/badge";
-import { Code2, Database, Cpu, Cloud, Settings, Wrench } from "lucide-react";
+import { Code2, Database, Cpu, Cloud, Settings, Wrench, Award } from "lucide-react";
 
 export function Skills() {
   const skillCategories = [
@@ -60,6 +60,18 @@ export function Skills() {
         "AWS ECS",
         "AWS Lambda",
         "REST APIs",
+      ],
+    },
+
+    {
+      category: "Explainability & Responsible AI",
+      icon: Award,
+      color: "from-yellow-500/20 to-orange-500/20",
+      skills: [
+        "SHAP",
+        "PDP",
+        "ALE",
+        "Model Stability Analysis"
       ],
     },
     

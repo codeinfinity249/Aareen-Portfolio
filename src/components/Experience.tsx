@@ -21,6 +21,29 @@ export function Experience() {
       technologies: ["VISTA Simulator", "LiDAR", "CloudCompare", "Python", "Data Analysis"],
     },
     {
+      type: "industry",
+      title: "Summer Associate (ESG & Sustainability)",
+      organization: "KPMG",
+      location: "India",
+      duration: "May 2024 - Jul 2024",
+      description:
+        "Worked on ESG and sustainability strategy engagements for the construction sector, contributing to impact assessment, materiality analysis, and performance improvement initiatives.",
+      achievements: [
+        "Spearheaded sustainability strategy initiatives in the construction sector, improving key ESG metrics by 15%",
+        "Led assessment of 30+ ESG impact areas, driving a 20% improvement in overall ESG performance scores",
+        "Mapped 30+ environmental metrics for materiality assessment, improving evaluation quality by 15%",
+        "Analyzed 10+ industry peers to identify sustainability gaps, contributing to a 10% reduction in environmental impact",
+        "Awarded a Letter of Recommendation by the Director, ESG Operations for strong work ethic and problem-solving skills",
+      ],
+      technologies: [
+        "ESG Frameworks",
+        "Materiality Assessment",
+        "Sustainability Strategy",
+        "Environmental Metrics",
+        "Industry Benchmarking",
+      ],
+    },
+    {
       type: "research",
       title: "Master's Thesis Research",
       organization: "ANT Lab, IIT Bombay",
