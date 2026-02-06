@@ -142,6 +142,44 @@ export function Projects() {
       },
       github: "https://github.com/codeinfinity249",
     },
+    {
+      title: <>Gesture-Controlled Volumetric Shape Visualization System</>,
+      featured: false,
+      status: "production",
+      description:
+        "A real-time interactive 3D visualization system enabling gesture-based exploration of complex volumetric shapes using hand tracking, physics-driven motion, and parametric surface modeling.",
+      problem:
+        "Exploring and understanding complex 3D geometric structures requires intuitive interaction techniques beyond traditional mouse–keyboard interfaces, particularly for immersive visualization and inspection.",
+      techStack: [
+        "Python",
+        "OpenCV",
+        "MediaPipe",
+        "Pygame",
+        "Computer Vision",
+        "Real-Time Graphics",
+        "HCI"
+      ],
+      highlights: [
+        <>Built a gesture-driven 3D visualization system integrating computer vision, real-time graphics, and HCI concepts</>,
+
+        <>Used MediaPipe hand landmarks for stable rotation, pinch-based zooming, & intuitive real-time camera control</>,
+
+        <>Implemented parametric surface sampling for Superquadrics, Möbius strips, and Torus Knots (2,3) & (5,3)</>,
+
+        <>Designed camera inertia and tweening to smooth rotations, minimize jitter, and improve interaction stability</>,
+
+        <>Developed a custom HUD with glassmorphism UI, elastic scrolling, pulse animations, and glow-based feedback</>,
+
+        <>Optimized real-time rendering of 1000+ particles at 60 FPS using depth-aware scaling and motion trails</>,
+      ],
+      metrics: {
+        frameRate: "60 FPS",
+        particles: "1000+",
+        interactionLatency: "<20 ms",
+        inputModalities: "Hand gestures + Keyboard + Mouse"
+      },
+      github: "https://github.com/codeinfinity249",
+    },
   ];
 
   return (
