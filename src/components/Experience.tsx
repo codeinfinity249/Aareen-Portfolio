@@ -7,34 +7,36 @@ export function Experience() {
   const experiences = [
     {
       type: "research",
-      title: "Research Intern",
+      title: "LiDAR Data Analytics Intern",
       organization: "University of Alberta | UARE Program",
       location: "Edmonton, Canada",
       duration: "May 2023 - Jul 2023",
-      description: "Selected as the sole representative from IIT Bombay and one of only 3 applicants nationwide for the prestigious UARE program.",
+      description: "Selected as the sole representative from IIT Bombay and one of only 3 applicants nationwide for the prestigious UARE research program.",
       achievements: [
-        "Optimized road-geometry impact assessment workflows by analyzing traffic data rates using the VISTA simulator",
-        "Increased data extraction accuracy by 15% by developing pipeline that isolates pavement from 500+ road sections",
-        "Analyzed LiDAR point cloud data from 100+ scans with CloudCompare for reliable surface-level insights",
-        "Delivered keynote presentation on LiDAR Applications in Transport Engineering to 150+ scholars",
+        "Optimized road-geometry impact assessment workflows by analysing large-scale traffic flow data using the VISTA simulator",
+        "Improved data extraction accuracy by 15% by developing a pipeline isolating pavement from 500+ LiDAR road sections",
+        "Processed LiDAR point cloud datasets from 100+ scans using CloudCompare to derive reliable road surface-level insights",
+        "Presented research on LiDAR applications in transport engineering to an audience of 150+ scholars, faculty and researchers"
       ],
       technologies: ["VISTA Simulator", "LiDAR", "CloudCompare", "Python", "Data Analysis"],
     },
     {
       type: "industry",
-      title: "Summer Associate (ESG & Sustainability)",
+      title: "ESG & Sustainability Analyst (Summer Associate)",
       organization: "KPMG",
       location: "India",
       duration: "May 2024 - Jul 2024",
       description:
         "Worked on ESG and sustainability strategy engagements for the construction sector, contributing to impact assessment, materiality analysis, and performance improvement initiatives.",
+      
       achievements: [
-        "Spearheaded sustainability strategy initiatives in the construction sector, improving key ESG metrics by 15%",
-        "Led assessment of 30+ ESG impact areas, driving a 20% improvement in overall ESG performance scores",
-        "Mapped 30+ environmental metrics for materiality assessment, improving evaluation quality by 15%",
-        "Analyzed 10+ industry peers to identify sustainability gaps, contributing to a 10% reduction in environmental impact",
-        "Awarded a Letter of Recommendation by the Director, ESG Operations for strong work ethic and problem-solving skills",
+        "Spearheaded sustainability strategy initiatives in the construction sector, improving key ESG performance metrics by 15%",
+        "Led assessment of 30+ ESG impact areas across operations, driving a 20% improvement in overall ESG performance scores",
+        "Mapped 30+ environmental indicators for materiality assessment, strengthening sustainability evaluation frameworks by 15%",
+        "Analyzed 10+ industry peers to benchmark sustainability practices, contributing to a 10% reduction in environmental impact",
+        "Received Letter of Recommendation from Director, ESG Operations for strong analytical thinking and problem-solving skills"
       ],
+     
       technologies: [
         "ESG Frameworks",
         "Materiality Assessment",
@@ -50,11 +52,14 @@ export function Experience() {
       location: "Mumbai, India",
       duration: "Mar 2024 - May 2025",
       description: "Conducted advanced research on machine learning models for urban particulate matter pollution forecasting under Prof. Manoranjan Sahu.",
-      achievements: [
-        "Designed end-to-end PM2.5/PM10 time series forecasting pipeline across 3 monitoring stations for 24-72 hour horizon",
-        "Implemented base models with XGBoost, ANN, LSTM achieving R² up to 0.94 under out-of-sample evaluation",
-        "Developed 5 hybrid ensemble methods reducing forecast RMSE by 18-30% and error variance by 20-35%",
-        "Achieved PM2.5 RMSE of 1.43 µg/m³ and PM10 RMSE of 4.71 µg/m³ using Bayesian Model Averaging (XGB+LSTM)",
+      achievements:[
+        <>Designed end-to-end PM<sub>2.5</sub>/PM<sub>10</sub> time-series forecasting pipeline across 3 monitoring stations for 24–72 hour prediction horizons</>,
+
+        <>Implemented baseline models (XGBoost, ANN, LSTM) achieving R<sup>2</sup> up to 0.94 under robust out-of-sample validation testing</>,
+
+        <>Developed 5 hybrid ensemble frameworks reducing forecast RMSE by 18–30% while lowering prediction error variance by 20–35%</>,
+
+        <>Applied Bayesian Model Averaging (XGBoost + LSTM) achieving PM<sub>2.5</sub> RMSE of 1.43 µg/m<sup>3</sup> and PM<sub>10</sub> RMSE of 4.71 µg/m<sup>3</sup></>,
       ],
       technologies: ["XGBoost", "LSTM", "ANN", "Python", "Time Series", "Bayesian Modeling"],
     },
@@ -66,9 +71,9 @@ export function Experience() {
       duration: "2024",
       description: "Led the inaugural fest of Environmental Science & Engineering Department with 500+ footfall and 10+ events/workshops.",
       achievements: [
-        "Managed INR 0.25M+ budget while leading overall strategy planning, execution & delivery of flagship events",
-        "Boosted attendance by 40% and revenue by 10% by launching campus-wide ambassador program",
-        "Successfully coordinated 10+ technical events and workshops with cross-functional teams",
+        "Managed INR 0.25M+ budget while leading end-to-end strategy planning, execution, and delivery of multiple flagship events",
+        "Boosted attendance by 40% and revenue by 10% by launching and managing a campus-wide ambassador outreach program",
+        "Coordinated 10+ technical events and workshops by leading cross-functional teams and collaborating with sponsors and speakers",
       ],
       technologies: ["Event Management", "Budget Planning", "Team Leadership", "Strategic Planning"],
     },
@@ -78,11 +83,11 @@ export function Experience() {
       organization: "Placement Team, IIT Bombay",
       location: "IIT Bombay",
       duration: "2024 - 2025",
-      description: "Assisted placements of 1800+ students in a team of 64+ coordinators, serving as liaison between placement cell and students.",
+      description: "Assisted placements of 1800+ students as part of a 64+ member placement team, serving as liaison between the placement cell, recruiters, and department students.",
       achievements: [
-        "Verified and optimized 30+ student resumes for maximum recruitment success",
-        "Conducted strategic pitching sessions to companies for improved student placement opportunities",
-        "Key member of department council addressing concerns for 45+ students",
+        "Reviewed and optimized 30+ student resumes through structured feedback sessions to improve recruitment readiness",
+        "Conducted strategic company pitching and engagement sessions to strengthen recruiter relations and placement opportunities",
+        "Served as key department council member representing and resolving academic and placement concerns for 45+ students",
       ],
       technologies: ["Strategic Communication", "Resume Optimization", "Stakeholder Management"],
     },
