@@ -180,6 +180,51 @@ export function Projects() {
       },
       github: "https://github.com/codeinfinity249",
     },
+    {
+      title: <>Customer Churn Analytics & Prediction System</>,
+      featured: true,
+      status: "production",
+      description:
+        "An end-to-end churn analytics and prediction system that integrates SQL-based ETL pipelines, interactive Power BI dashboards, and machine learning models to analyze customer behavior and predict churn risk.",
+      
+      problem:
+        "Customer churn leads to significant revenue loss for subscription-based businesses. Organizations require a scalable data pipeline and predictive framework to analyze churn drivers, identify high-risk customers, and support proactive retention strategies.",
+      
+      techStack: [
+        "Microsoft SQL Server",
+        "SQL Server Management Studio",
+        "Power BI",
+        "Python",
+        "Pandas",
+        "Scikit-learn",
+        "XGBoost",
+        "Machine Learning",
+        "Data Analytics"
+      ],
+
+      highlights: [
+        <>Architected an end-to-end churn analytics pipeline using Microsoft SQL Server ETL workflows to process and structure telecom customer data</>,
+
+        <>Designed staging and production database layers with validation logic and analytical SQL views for reliable downstream analytics</>,
+
+        <>Developed an interactive Power BI dashboard visualizing churn metrics across demographics, services, contracts, and geography</>,
+
+        <>Built a machine learning churn prediction model using XGBoost to identify customers at high risk of churn</>,
+
+        <>Implemented feature encoding, model training, evaluation, and prediction pipelines using Python and Scikit-learn</>,
+
+        <>Enabled data-driven retention strategies by identifying churn drivers such as contract type, tenure, service usage, and payment methods</>,
+      ],
+
+      metrics: {
+        datasetSize: "6,400+ customers",
+        churnRateAnalyzed: "27%",
+        dashboards: "3 Interactive Pages",
+        mlModel: "XGBoost Classifier"
+      },
+
+      github: "https://github.com/codeinfinity249/Customer-Churn-Analytics"
+    },
   ];
 
   return (
