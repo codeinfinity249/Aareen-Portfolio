@@ -203,17 +203,17 @@ export function Projects() {
       ],
 
       highlights: [
-        <>Architected an end-to-end churn analytics pipeline using Microsoft SQL Server ETL workflows to process and structure telecom customer data</>,
+      <>Architected an end-to-end churn analytics pipeline using Microsoft SQL Server ETL and XGBoost</>,
 
-        <>Designed staging and production database layers with validation logic and analytical SQL views for reliable downstream analytics</>,
+      <>Designed staging and production database layers with validation logic and analytical SQL views</>,
 
-        <>Developed an interactive Power BI dashboard visualizing churn metrics across demographics, services, contracts, and geography</>,
+      <>Built interactive Power BI dashboards revealing churn patterns across services, demographics, and payments</>,
 
-        <>Built a machine learning churn prediction model using XGBoost to identify customers at high risk of churn</>,
+      <>Developed machine learning pipeline using Python and XGBoost to predict high-risk churn customers</>,
 
-        <>Implemented feature encoding, model training, evaluation, and prediction pipelines using Python and Scikit-learn</>,
+      <>Implemented feature encoding, model training, and evaluation workflows using Scikit-learn</>,
 
-        <>Enabled data-driven retention strategies by identifying churn drivers such as contract type, tenure, service usage, and payment methods</>,
+      <>Identified key churn drivers including contract type, tenure, services, and payment behaviors</>,
       ],
 
       metrics: {
