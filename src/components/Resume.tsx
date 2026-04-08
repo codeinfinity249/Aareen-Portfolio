@@ -92,7 +92,7 @@ export function Resume() {
                   </Button>*/}
                   <Button size="lg" className="gap-2 flex-1 sm:flex-initial shadow-lg hover:shadow-xl" asChild >
                     <a
-                      href="/resume/Aareen_Tech_Draft.pdf"
+                      href="/resume/Aareen_Aher_Resume.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -102,7 +102,7 @@ export function Resume() {
                   </Button>
                   <Button size="lg" variant="outline" className="gap-2 flex-1 sm:flex-initial border-2 shadow-md hover:shadow-lg" asChild>
                     <a
-                      href="https://www.linkedin.com/in/aareen-aher-273841204"
+                      href="https://www.linkedin.com/in/aareen-aher"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
