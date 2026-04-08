@@ -41,8 +41,8 @@ export function Contact() {
     {
       icon: Mail,
       title: "Email",
-      value: "aheraareen2409@gmail.com",
-      link: "mailto:aheraareen2409@gmail.com",
+      value: "aareenaher@gmail.com",
+      link: "mailto:aareenaher@gmail.com",
       color: "from-blue-500/20 to-cyan-500/20",
     },
     {
@@ -55,8 +55,8 @@ export function Contact() {
     {
       icon: Linkedin,
       title: "LinkedIn",
-      value: "/in/aareen-aher-273841204",
-      link: "https://www.linkedin.com/in/aareen-aher-273841204",
+      value: "/in/aareen-aher",
+      link: "https://www.linkedin.com/in/aareen-aher",
       color: "from-blue-700/20 to-blue-500/20",
     },
     {
